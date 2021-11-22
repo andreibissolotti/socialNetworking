@@ -15,7 +15,7 @@
     <% @users.each do |user| %>
       <tr>
         <th scope="row"><%= user.id %></th>
-        <td><%= image_tag(user.avatar, alt: "Avatar", class: 'ui-w-100-forced rounded-circle', style: "height:30px; width:30px")%></td>
+        <td><%= image_tag(user.avatar, alt: "Avatar", class: 'ui-w-100-forced rounded-circle', style: "height:30px; width:30px") %></td>
         <td><%= user.name %></td>
         <td><%= user.phone %></td>
         <td><%= user.email %></td>
